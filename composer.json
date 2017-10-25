@@ -1,0 +1,28 @@
+{
+  "name": "movingimage/vmpro-search-data-provider-bundle",
+  "description": "Symfony bundle that wires the VMProSearch DataProvider's services into the service container",
+  "type": "library",
+  "license": "Proprietary",
+  "authors": [
+    {
+      "name": "Konstantin Plotkin",
+      "email": "constantin.plotkin@movingimage.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "symfony/framework-bundle": "^2.7 || ^3.0",
+    "movingimage/vmpro-api-bundle": "dev-master",
+    "movingimage/data-provider-vmpro-search": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "MovingImage\\Bundle\\DataProvider\\VideoManagerProSearch\\": ""
+    }
+  },
+  "require-dev": {
+    "movingimage/style-checker": "dev-master"
+  }
+}
