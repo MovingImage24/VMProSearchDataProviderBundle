@@ -1,4 +1,4 @@
-Getting started with the VMPro Data Provider Bundle
+Getting started with the VMPro Search Data Provider Bundle
 ===================================================
 
 This Symfony bundle allows you to abstract away the need to interact directly with the Video
@@ -23,7 +23,7 @@ First you have to install it using Composer:
 
 .. code-block:: bash
 
-    $ composer require movingimage/vmpro-data-provider-bundle
+    $ composer require movingimage/vmpro-search-data-provider-bundle
 
 Enable bundle
 _____________
@@ -43,7 +43,7 @@ Enable the bundle in your kernel:
             $bundles = array(
                 // ...
 
-                new MovingImage\Bundle\DataProvider\VideoManagerPro\VMProDataProviderBundle(),
+                new MovingImage\Bundle\DataProvider\VideoManagerProSearch\VMProSearchDataProviderBundle(),
             );
 
             // ...
@@ -108,5 +108,5 @@ After successful installation, you may use the data provider in your collections
     video_collection:
         collections:
             video_list:
-                data_provider: vmpro
+                data_provider: vmprosearch
                 channel_id: 10110

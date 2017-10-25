@@ -9,8 +9,6 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 /**
  * Class VMProDataProviderExtension.
- *
- * @author Ruben Knol <ruben.knol@movingimage.com>
  */
 class VMProSearchDataProviderExtension extends Extension
 {
