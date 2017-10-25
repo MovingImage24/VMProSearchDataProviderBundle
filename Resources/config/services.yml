@@ -1,7 +1,6 @@
 services:
     # Data provider wrapper for retrieving data from the
     # video manager pro API
-    data_providers.vmpro:
     data_providers.vmprosearch:
         class: MovingImage\DataProvider\VideoManagerProSearch
         arguments:
