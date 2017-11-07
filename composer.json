@@ -14,8 +14,8 @@
   "require": {
     "php": "^5.5 || ^7.0",
     "symfony/framework-bundle": "^2.7 || ^3.0",
-    "movingimage/vmpro-api-bundle": "^0.11.1",
-    "movingimage/data-provider-vmpro-search": "1.1.0"
+    "movingimage/vmpro-api-bundle": "dev-master",
+    "movingimage/data-provider-vmpro-search": "dev-master"
   },
   "autoload": {
     "psr-4": {
